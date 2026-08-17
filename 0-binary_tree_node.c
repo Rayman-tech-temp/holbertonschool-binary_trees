@@ -18,12 +18,8 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 
 	fiber->parent = parent;
 	fiber->n = value;
-
-	if (parent == NULL)
-	{
-		fiber->left = NULL;
-		fiber->right = NULL;
-	}
+	fiber->left = NULL;
+	fiber->right = NULL;
 
 	return (fiber);
 }
