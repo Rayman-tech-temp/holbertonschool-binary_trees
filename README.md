@@ -1,1 +1,1 @@
-a set containing all sets contains itself
+does a set of all sets contain itself?
